@@ -1,6 +1,10 @@
 #BankAccount1 class
+
 class BankAccount:
     bank_title = "Bank of America"
+    _account_number = 0
+    __routing_number = 0
+
     def __init__(self, customer_name, current_balance, minimum_balance):
         self.customer_name = customer_name
         self.current_balance = current_balance
@@ -21,4 +25,7 @@ class BankAccount:
         print("Bank Name: ", self.bank_title)
         print("Customer Name:", self.customer_name)
         print("Current Balance:", self.current_balance, "\n")
+
+
+
 

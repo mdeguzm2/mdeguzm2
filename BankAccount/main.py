@@ -1,4 +1,4 @@
-import BankAccount
+from BankAccount import BankAccount
 
 #creating instances
 print("First instance, withdraw amount less than or equal to current balance:")
